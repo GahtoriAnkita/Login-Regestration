@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regestration and Login form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main-parent">
+      <div class="form-warp">
+        <form action="">
+          <h1><span>Registration</span>Form</h1>
+          <div class="single-input">
+            <input required type="text" id="fname" placeholder="First name" />
+          </div>
+          <div class="single-input">
+            <input required type="text" id="lname" placeholder="List name" />
+          </div>
+          <div class="single-input">
+            <input
+              name="EMAIL"
+              required
+              type="email"
+              id="email"
+              placeholder="Email address" />
+          </div>
+          <div class="single-input">
+            <input
+              name="Password"
+              required
+              type="password"
+              id="pass"
+              placeholder="Password" />
+          </div>
+          <div class="single-input">
+            <input
+              required
+              type="password"
+              id="cpass"
+              placeholder="Confirm Password" />
+          </div>
+          <div class="Submit-button">
+            <button class="button">Submit</button>
+          </div>
+          <div class="account-have">
+            <a href="#">Forget passsword</a>
+            <a href="login.html">Have an account LOGIN</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="sweetalert.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
